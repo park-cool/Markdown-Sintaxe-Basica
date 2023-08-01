@@ -1,32 +1,22 @@
  <div align="center">
- <img width="250" alt="Markdown logo" src="./img/markdown.png"/>
+ <img width="250" alt="Markdown logo" src="./img/markdown-100.png"/>
  </div>
-
-
- <div align=center>
-
- <font size='70' color=#F11A7B> Markdown Sintaxe Básica </font>
- 
- </div>
-
-
 
 <br>
 
- <h1 > O que é Markdown ? </h1>
 
-É uma linguagem de marcação leve e fácil de usar, criada por John Gruber em 2004 com colaborações de Aaron Swartz. Markdown converte seu texto em HTML válido. É projetado para ser fácil de ler e escrever, mais usado para formatar arquivos README entre outros. Sua sintaxe é intuitiva e compreensível.
+ <h1 style=color:#0079FF align=center> Markdown Sintaxe Básica </h1>
+
+O que e **Markdown**? é uma linguagem de marcação leve e fácil de usar, criada por **_John Gruber_** em 2004 com colaborações de **_Aaron Swartz_**. Markdown converte seu texto em HTML válido. É projetado para ser fácil de ler e escrever, mais usado para formatar arquivos **README** entre outros. Sua sintaxe é intuitiva e compreensível.
 
 <div align="center">
  <img width="150" alt="Markdown logo" src="/img/good.gif"/>
  </div>
 
-
 <br>
 <br>
 
-
-## 📌 Títulos
+<h2 style=color:#0079FF >☄️ Títulos </h2>
 
 Para criar uma estrutura clara e organizada no seu documento. Use de um a seis sinais de cerquilha `#` para indicar diferentes níveis de títulos.
 
@@ -43,29 +33,30 @@ _**ou**_
 
 ```
 Título de nível 1
-====
+==
 
 Título de nível 2
-------
+--
 ```
 
- 👇
+👇
 
 ![Titulos](img/Screenshot_4.png 'exemplos de Cabeçalho')
 
 <br>
 
-## 📌Ênfase
- Ao combinando negrito e itálico, dê preferência ao uso de três asteriscos, para evitar problemas de compatibilidade com aplicativos Markdown  
+<h2 style=color:#0079FF >☄️ Ênfase </h2>
+
+Ao combinando negrito e itálico, dê preferência ao uso de três asteriscos, para evitar problemas de compatibilidade com aplicativos Markdown  
 Ex:
 
-#### ***Italico&negrito***:
+#### **_Italico&negrito_**:
 
 ```
  ***Italico&negrito***
 ```
 
-#### *Italico*:
+#### _Italico_:
 
 ```
  *Italico*
@@ -83,6 +74,7 @@ Para riscar a palavra em um linha horizontal
 basta colar dois simbolos de til `~~`.
 
 **assim:** 👇
+
 ```
 Segundo especialistas em ~~numismática~~, existem moedas de Real com defeitos de fabricação que fazem com que sejam muito valiosas.
 ```
@@ -91,7 +83,7 @@ Segundo especialistas em ~~numismática~~, existem moedas de Real com defeitos d
 
 <br>
 
-## 📌Links
+<h2 style=color:#0079FF >☄️ Links </h2>
 
 Existe duas formas de inserir link em Markdown, através de um link direto ou usando um texto-âncora.
 
@@ -115,11 +107,12 @@ Existe duas formas de inserir link em Markdown, através de um link direto ou us
 
 <br>
 
-## 📌Listas
+<h2 style=color:#0079FF >☄️ Listas </h2>
+
 
 Crie listas com um hífen `-` , `+` ou `*` seguido de um espaço
 
-### Lista não ordenada
+#### Lista não ordenada
 
 ```
 - Javascript
@@ -131,7 +124,7 @@ Crie listas com um hífen `-` , `+` ou `*` seguido de um espaço
 - Typescript
 - React
 
-### Lista Ordenadas
+#### Lista Ordenadas
 
 coloque um número na frente de cada linha seguindo de um ponto `.`
 
@@ -139,7 +132,7 @@ coloque um número na frente de cada linha seguindo de um ponto `.`
 2. Node.js
 3. PHP
 
-### Listas aninhadas
+#### Listas aninhadas
 
 1. Fullstack
    - Front End
@@ -151,16 +144,18 @@ coloque um número na frente de cada linha seguindo de um ponto `.`
      - Back End
 ```
 
-### Listas de tarefas
+#### Listas de tarefas
 
 ```
 - [x] #739
 - [ ] klll
 - [ ] Add delight
 ```
+
 <br>
 
-## 📌Imagens
+<h2 style=color:#0079FF >☄️ Imagens </h2>
+
 
 Você pode exibir uma imagem adicionando `!` e colocando o texto entre `[ ]`, o texto alternativo é um texto curto equivalente às informações da imagem. Em seguida, coloque o link da imagem entre parênteses `()`.
 Sintaxe de imagem se assemelha à sintaxe para links, permitindo dois estilos.
@@ -183,7 +178,8 @@ _**ou**_
 
 <br>
 
-## Emoji 👋😎
+<h2 style=color:#0079FF >☄️ Emoji 👋😎 </h2>
+
 
 Há duas maneiras de adicionar emoji a arquivos _Markdown_: **copiar** e **cola**r o emoji em seu texto formatado em Markdown ou digitar códigos de acesso de emoji .
 
@@ -191,7 +187,7 @@ Há duas maneiras de adicionar emoji a arquivos _Markdown_: **copiar** e **cola*
 
 <br>
 
-## Tabelas 
+<h2 style=color:#0079FF >☄️ Tabela </h2>
 
 Crie tabelas organizadas com barras verticais `|` e hífens `-` para delimitar as células e dois pontos `:` como abaixo.
 
@@ -201,7 +197,7 @@ Crie tabelas organizadas com barras verticais `|` e hífens `-` para delimitar a
 | Back End  |  Híbrido   |   200 |
 | FullStack | Presencial |    40 |
 
-💡 ***Dica: Para alinha o texto  usando*** `:`  👇
+💡 **_Dica: Para alinha o texto usando_** `:` 👇
 
 ```
 A esquerda   |:----|
@@ -211,7 +207,8 @@ A direita    |----:|
 
 <br>
 
-## 📌Citações
+<h2 style=color:#0079FF >☄️ Citações </h2>
+
 
 Para criar um blockquote, adicione um `>` na frente do paragrafo.
 
@@ -225,7 +222,8 @@ A saída renderizada fica assim👇
 
 <br>
 
-## 📌Réguas horizontais
+<h2 style=color:#0079FF >☄️ Régua Horizontal </h2>
+
 
 Insira uma linha horizontal para separar seções no seu documento usando três hífens `---` ou asteriscos `***` ou `___` .
 
@@ -241,12 +239,11 @@ A saida sera assim 👇
 
 ---
 
-
 <br>
 
 ### Teste seu Markdown:
 
-**Editor de codigo**   
+**Editor de codigo**  
 [VS Code](https://code.visualstudio.com/)
 
 **Editores online**
@@ -254,8 +251,3 @@ A saida sera assim 👇
 - [Dillinger](https://dillinger.io/)
 - [Markdown Preview](https://markdownlivepreview.com/)
 - [Meditor](https://pandao.github.io/editor.md/en.html)
-
-
-
-
-
