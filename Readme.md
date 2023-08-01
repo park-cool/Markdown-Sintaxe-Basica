@@ -5,7 +5,7 @@
 <br>
 
 
- <h1 style=color:#0079FF align=center> Markdown Sintaxe Básica </h1>
+ <h1 style='color:#0079FF' align=center> Markdown Sintaxe Básica </h1>
 
 O que e **Markdown**? é uma linguagem de marcação leve e fácil de usar, criada por **_John Gruber_** em 2004 com colaborações de **_Aaron Swartz_**. Markdown converte seu texto em HTML válido. É projetado para ser fácil de ler e escrever, mais usado para formatar arquivos **README** entre outros. Sua sintaxe é intuitiva e compreensível.
 
