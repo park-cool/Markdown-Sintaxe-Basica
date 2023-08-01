@@ -1,5 +1,5 @@
  <div align="center">
- <img width="250" alt="Markdown logo" src="image.png"/>
+ <img width="250" alt="Markdown logo" src="./img/markdown.png"/>
  </div>
 
 
