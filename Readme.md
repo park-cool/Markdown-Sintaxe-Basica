@@ -13,7 +13,6 @@ O que e **Markdown**? é uma linguagem de marcação leve e fácil de usar, cria
  </div>
 
 <br>
-<br>
 
 ## ☄️ Títulos
 
@@ -44,24 +43,48 @@ Título de nível 2
 
 <br>
 
+## ☄️ Citações 
+
+Para criar um blockquote, adicione um `>` na frente do paragrafo.
+
+```
+> Não gosto de domingo, é o dia mais _modorrento_ da semana.
+```
+
+A saída renderizada fica assim👇
+
+> Não gosto de domingo, é o dia mais _modorrento_ da semana.
+
+<br>
+
+## ☄️ Emoji 👋😎 
+
+Há duas maneiras de adicionar emoji a arquivos _Markdown_: **copiar** e **cola**r o emoji em seu texto formatado em Markdown ou digitar **códigos** de acesso de emoji .
+
++  💻`:computer: `
+
++ 🔗 [Emojipedia](https://emojipedia.org/ 'emojipedia') 
+
+<br>
+
 ## ☄️ Ênfase 
 
-Ao combinando negrito e itálico, dê preferência ao uso de três asteriscos, para evitar problemas de compatibilidade com aplicativos Markdown  
+Ao combinando negrito e itálico, dê preferência ao uso de três **asteriscos**, para evitar problemas de compatibilidade com aplicativos Markdown  
 Ex:
 
-#### **_Italico&negrito_**:
+#### **_Italico&negrito_**
 
 ```
  ***Italico&negrito***
 ```
 
-#### _Italico_:
+#### _Italico_
 
 ```
  *Italico*
 ```
 
-#### **NEGRITO**:
+#### **NEGRITO**
 
 ```
  **NEGRITO**
@@ -69,22 +92,35 @@ Ex:
 
 #### ~~TACHADO~~
 
-Para riscar a palavra em um linha horizontal
-basta colar dois simbolos de til `~~`.
+```
+ ~~TACHADO~~
+```
+<br>
 
-**assim:** 👇
+## ☄️ Imagens 
+
+Você pode exibir uma imagem adicionando `!` e colocando uma descrição entre `[ ]`, o texto alternativo equivalente às informações da imagem. Em seguida, coloque o link da imagem entre parênteses `()`.
+Sintaxe de imagem se assemelha à sintaxe para links, permitindo dois estilos.
 
 ```
-Segundo especialistas em ~~numismática~~, existem moedas de Real com defeitos de fabricação que fazem com que sejam muito valiosas.
+![descrição](/img.png)
 ```
 
-###### Segundo especialistas em ~~numismática~~, existem moedas de Real com ~~defeito~~s de fabricação que fazem com que sejam muito valiosas.
+_**ou**_
+
+```
+![descrição](URL da imagem "texto opocional")
+```
+
+![if](./img/if.png "Qual opção?")
+
+###### passe o mause sobre a imagem
 
 <br>
 
 ## ☄️ Links 
 
-Existe duas formas de inserir link em Markdown, através de um link direto ou usando um texto-âncora.
+Existe duas formas de inserir link em **Markdown**, através de um link direto ou usando um texto-âncora.
 
 **Link direto**: envolva o endereço da web em chaves `<>` , o endereço ficará visível e será clicável pelo usuário.
 
@@ -102,7 +138,7 @@ Existe duas formas de inserir link em Markdown, através de um link direto ou us
   [Duck Duck Go](https://duckduckgo.com "mecanismo de buscas com mais privacidade")
 ```
 
-💡 **Dica:** Para inserir uma frase informativa quando o usuário passar o mouse sobre o link. Coloque entre **aspas** `" "` após o **URL**.
+💡 **Dica:** Para inserir uma frase informativa quando o usuário passar o mouse sobre o **link**. Coloque entre **aspas** `" "` após o **URL**.
 
 <br>
 
@@ -123,7 +159,7 @@ Crie listas com um hífen `-` , `+` ou `*` seguido de um espaço
 - Typescript
 - React
 
-#### Lista Ordenadas
+#### Lista Ordenada
 
 coloque um número na frente de cada linha seguindo de um ponto `.`
 
@@ -153,32 +189,20 @@ coloque um número na frente de cada linha seguindo de um ponto `.`
 
 <br>
 
-## ☄️ Imagens 
+## ☄️ Régua Horizontal
 
-Você pode exibir uma imagem adicionando `!` e colocando o texto entre `[ ]`, o texto alternativo é um texto curto equivalente às informações da imagem. Em seguida, coloque o link da imagem entre parênteses `()`.
-Sintaxe de imagem se assemelha à sintaxe para links, permitindo dois estilos.
+Insira uma linha horizontal para separar seções no seu documento usando três hífens `---` ou asteriscos `***` ou `___` .
 
-```
-![descrição](/img.png)
-```
-
-_**ou**_
+**Dessa forma:**
 
 ```
-![descrição](URL da imagem "texto opocional")
+---
 ```
+💡**Dica**: Em uma unica linha.
 
-![if](./img/if.png "Qual opção?")
+A saida sera assim 👇
 
-###### passe o mause sobre a imagem
-
-<br>
-
-## ☄️ Emoji 👋😎 
-
-Há duas maneiras de adicionar emoji a arquivos _Markdown_: **copiar** e **cola**r o emoji em seu texto formatado em Markdown ou digitar códigos de acesso de emoji .
-
-[Emojipedia](https://emojipedia.org/ 'emojipedia') 🔗
+---
 
 <br>
 
@@ -208,44 +232,12 @@ A direita    |----:|
 ```
 <br>
 
-## ☄️ Citações 
-
-Para criar um blockquote, adicione um `>` na frente do paragrafo.
-
-```
-> Não gosto de domingo, é o dia mais _modorrento_ da semana.
-```
-
-A saída renderizada fica assim👇
-
-> Não gosto de domingo, é o dia mais _modorrento_ da semana.
-
-<br>
-
-## ☄️ Régua Horizontal
-
-Insira uma linha horizontal para separar seções no seu documento usando três hífens `---` ou asteriscos `***` ou `___` .
-
-**Dessa forma:**
-
-💡**Dica**: Em uma unica linha.
-
-```
----
-```
-
-A saida sera assim 👇
-
----
-
-<br>
-
 ### Teste seu Markdown:
 
-**Editor de codigo**  
+#### Editor de codigo 
 [VS Code](https://code.visualstudio.com/)
 
-**Editores online**
+#### Editores online
 
 - [Dillinger](https://dillinger.io/)
 - [Markdown Preview](https://markdownlivepreview.com/)
