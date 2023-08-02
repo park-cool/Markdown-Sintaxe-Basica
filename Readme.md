@@ -235,7 +235,7 @@ A direita    |----:|
 ### Teste seu Markdown:
 
 #### Editor de codigo 
-[VS Code](https://code.visualstudio.com/)
+[Visual Studio Code](https://code.visualstudio.com/)
 
 #### Editores online
 
