@@ -1,22 +1,21 @@
  <div align="center">
- <img width="250" alt="Markdown logo" src="./img/markdown-100.png"/>
+ <img alt="Markdown logo" src="./img/markdown-100.png"/>
  </div>
 
 <br>
 
-
- <h1 style='color:#0079FF' align=center> Markdown Sintaxe Básica </h1>
+ <h1  align=center> Markdown Sintaxe Básica </h1>
 
 O que e **Markdown**? é uma linguagem de marcação leve e fácil de usar, criada por **_John Gruber_** em 2004 com colaborações de **_Aaron Swartz_**. Markdown converte seu texto em HTML válido. É projetado para ser fácil de ler e escrever, mais usado para formatar arquivos **README** entre outros. Sua sintaxe é intuitiva e compreensível.
 
 <div align="center">
- <img width="150" alt="Markdown logo" src="/img/good.gif"/>
+ <img width="150" alt="Good" src="/img/good.gif"/>
  </div>
 
 <br>
 <br>
 
-<h2 style=color:#0079FF >☄️ Títulos </h2>
+## ☄️ Títulos
 
 Para criar uma estrutura clara e organizada no seu documento. Use de um a seis sinais de cerquilha `#` para indicar diferentes níveis de títulos.
 
@@ -41,11 +40,11 @@ Título de nível 2
 
 👇
 
-![Titulos](img/Screenshot_4.png 'exemplos de Cabeçalho')
+![Titulos](img/titulos.png 'exemplos de Cabeçalho')
 
 <br>
 
-<h2 style=color:#0079FF >☄️ Ênfase </h2>
+## ☄️ Ênfase 
 
 Ao combinando negrito e itálico, dê preferência ao uso de três asteriscos, para evitar problemas de compatibilidade com aplicativos Markdown  
 Ex:
@@ -83,7 +82,7 @@ Segundo especialistas em ~~numismática~~, existem moedas de Real com defeitos d
 
 <br>
 
-<h2 style=color:#0079FF >☄️ Links </h2>
+## ☄️ Links 
 
 Existe duas formas de inserir link em Markdown, através de um link direto ou usando um texto-âncora.
 
@@ -107,7 +106,7 @@ Existe duas formas de inserir link em Markdown, através de um link direto ou us
 
 <br>
 
-<h2 style=color:#0079FF >☄️ Listas </h2>
+## ☄️ Listas 
 
 
 Crie listas com um hífen `-` , `+` ou `*` seguido de um espaço
@@ -154,8 +153,7 @@ coloque um número na frente de cada linha seguindo de um ponto `.`
 
 <br>
 
-<h2 style=color:#0079FF >☄️ Imagens </h2>
-
+## ☄️ Imagens 
 
 Você pode exibir uma imagem adicionando `!` e colocando o texto entre `[ ]`, o texto alternativo é um texto curto equivalente às informações da imagem. Em seguida, coloque o link da imagem entre parênteses `()`.
 Sintaxe de imagem se assemelha à sintaxe para links, permitindo dois estilos.
@@ -170,16 +168,13 @@ _**ou**_
 ![descrição](URL da imagem "texto opocional")
 ```
 
-👇
-
-![if](img/if.png 'Qual a opção?')
+![if](./img/if.png "Qual opção?")
 
 ###### passe o mause sobre a imagem
 
 <br>
 
-<h2 style=color:#0079FF >☄️ Emoji 👋😎 </h2>
-
+## ☄️ Emoji 👋😎 
 
 Há duas maneiras de adicionar emoji a arquivos _Markdown_: **copiar** e **cola**r o emoji em seu texto formatado em Markdown ou digitar códigos de acesso de emoji .
 
@@ -187,9 +182,16 @@ Há duas maneiras de adicionar emoji a arquivos _Markdown_: **copiar** e **cola*
 
 <br>
 
-<h2 style=color:#0079FF >☄️ Tabela </h2>
-
+## ☄️ Tabela
 Crie tabelas organizadas com barras verticais `|` e hífens `-` para delimitar as células e dois pontos `:` como abaixo.
+
+```
+| Dev       |   Local    | Quant |
+| --------- | :--------: | ----: |
+| Front End |   Remoto   |  3500 |
+| Back End  |  Híbrido   |   200 |
+| FullStack | Presencial |    40 |
+```
 
 | Dev       |   Local    | Quant |
 | --------- | :--------: | ----: |
@@ -197,18 +199,16 @@ Crie tabelas organizadas com barras verticais `|` e hífens `-` para delimitar a
 | Back End  |  Híbrido   |   200 |
 | FullStack | Presencial |    40 |
 
-💡 **_Dica: Para alinha o texto usando_** `:` 👇
+💡 **_Dica: Para alinha o texto use_** `:` 👇
 
 ```
 A esquerda   |:----|
 Centralizado |:---:|
 A direita    |----:|
 ```
-
 <br>
 
-<h2 style=color:#0079FF >☄️ Citações </h2>
-
+## ☄️ Citações 
 
 Para criar um blockquote, adicione um `>` na frente do paragrafo.
 
@@ -222,8 +222,7 @@ A saída renderizada fica assim👇
 
 <br>
 
-<h2 style=color:#0079FF >☄️ Régua Horizontal </h2>
-
+## ☄️ Régua Horizontal
 
 Insira uma linha horizontal para separar seções no seu documento usando três hífens `---` ou asteriscos `***` ou `___` .
 
