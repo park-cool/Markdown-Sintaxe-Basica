@@ -45,7 +45,7 @@ Título de nível 2
 
 ## ☄️ Citações 
 
-Para criar um blockquote, adicione um `>` na frente do paragrafo.
+Para criar um blockquote, adicione um `>` na frente do parágrafo.
 
 ```
 > Não gosto de domingo, é o dia mais _modorrento_ da semana.
@@ -57,7 +57,7 @@ A saída renderizada fica assim👇
 
 <br>
 
-## ☄️ Emoji 👋😎 
+## ☄️ Emojis 👋😎 
 
 Há duas maneiras de adicionar emoji a arquivos _Markdown_: **copiar** e **cola**r o emoji em seu texto formatado em Markdown ou digitar **códigos** de acesso de emoji .
 
@@ -135,7 +135,7 @@ Existe duas formas de inserir link em **Markdown**, através de um link direto o
 🔗 [Duck Duck Go](duckduckgo.com 'mecanismo de buscas com mais privacidade')
 
 ```
-  [Duck Duck Go](https://duckduckgo.com "mecanismo de buscas com mais privacidade")
+  [Duck Duck Go](https://duckduckgo.com "mecanismo de busca com mais privacidade")
 ```
 
 💡 **Dica:** Para inserir uma frase informativa quando o usuário passar o mouse sobre o **link**. Coloque entre **aspas** `" "` após o **URL**.
@@ -200,7 +200,7 @@ Insira uma linha horizontal para separar seções no seu documento usando três 
 ```
 💡**Dica**: Em uma unica linha.
 
-A saida sera assim 👇
+A saída será assim 👇
 
 ---
 
